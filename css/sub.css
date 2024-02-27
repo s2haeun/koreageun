@@ -735,21 +735,72 @@ ul.philosophy_msg li::before {
 }
 /* 보유장비 */
 /* 영인 체외충격파 */
-.item .content_inner{
+.item.shock .content_inner{
     display: flex;
     gap: 5rem;
     padding: 0 ;
     margin-bottom: 130px;
+}
+.item.shock .content_inner>div{
+    flex: 1;
+}
+.item.shock .txt_wrap  .item_msg {
+    line-height: 4rem;
+}
+.item.item.shock::before{
+    display: block;
+    overflow: hidden;
+    width: 52%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #e3e3e3;
+    content: '';
+    border-radius: 200px 0 0 200px;
+    z-index: -1;
+}
+
+
+/* cryo */
+.item .content_inner{
+    display: flex;
+    /* gap: 5rem; */
+    padding: 0 ;
+    margin-bottom: 130px;
     align-items: center;
 }
-.item .content_inner>div{
-    flex: 1;
+.item_msg {
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.item.reverse .content_inner{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.item.reverse::before{
+    left: 0;
+    border-radius: 0 200px 200px 0;
+}
+.item.reverse .txt_wrap{
+    padding: 5rem 14rem 5rem 0;
+}
+.item .img_wrap{flex: 2;}
+.item .img_wrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item .txt_wrap{
+    flex: 3;
+    padding: 5rem 0 5rem 14rem;
+    box-sizing: border-box;
 }
 .item{position: relative;}
 .item::before{
     display: block;
     overflow: hidden;
-    width: 53%;
+    width: 56%;
     height: 100%;
     position: absolute;
     bottom: 0;
@@ -764,9 +815,12 @@ ul.philosophy_msg li::before {
     font-weight: 700;
     margin-bottom: 1rem;
 }
-.item_msg {
+.item .txt_wrap .item_msg {
     font-size: 2.7rem;
-    font-weight: 300;
+    line-height: 3rem;
+}
+.txt_wrap p:last-of-type {
+    margin-top: 1rem;
 }
 ul.item_msg li {
     margin-bottom: 1rem;

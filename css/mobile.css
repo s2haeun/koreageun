@@ -149,6 +149,26 @@
         font-size: 2rem;
         padding: 1.5rem 1rem 3.5rem;
     }
+    /* 보유장비 */
+    .item .txt_wrap .item_msg {
+        font-size: 1.5rem;
+    }
+    .item.shock .txt_wrap .item_msg {
+        line-height: 2.5rem;
+    }
+    .philosophy_msg {
+        font-size: 1.7rem;
+    }
+    .item_msg {
+        font-size: 1.8rem;
+    }
+    .carm_img_wrap {
+        gap: 1rem;
+        margin-top: 4rem;
+    }
+    .item_tit {
+        font-size: 2.5rem;
+    }
     /* 개인정보처리방침ㅁ */
     .site_tit {
         font-size: 3rem;

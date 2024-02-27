@@ -266,11 +266,11 @@ header .header_inner{
 .main_cover p{
     font-size: 6.4rem;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     width: 90%;
 }
 .main_cover p span{
-    font-weight: 500;
+    font-weight: 700;
 }
 .main_cover p.one{
     margin-top: 30px;

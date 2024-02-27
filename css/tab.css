@@ -123,6 +123,39 @@
     .smartct_ul{
         flex-direction: column;
     }
+    .item .content_inner {
+        flex-direction: column;
+    }
+    .item.item.shock::before {
+        display: none;
+    }
+    .item .txt_wrap {
+        flex: 3;
+        padding: 5rem 0 0;
+        width: 100%;
+    }
+    .item.reverse .txt_wrap {
+        padding: 5rem 0 0;
+    }
+    .item_tit {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .item .txt_wrap .item_msg {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .item_msg {
+        font-size: 2.2rem;
+    }
+    .item::before{
+        display: none;
+    }
+    .item.reverse .content_inner {
+        flex-direction: column;
+    }
+
+    /*  */
 
     /* footer */
     .footer_inner{
