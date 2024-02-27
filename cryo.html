@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="고려건정형외과 ㅣ천호역 최대규모 정형외과">
+    <meta name="Description" content="천호역 정형외과 전문의, 비수술 치료, 주사치료">
+    <meta name="Location" content="서울 동작구 동작대로 137">
+    <link rel="canonical" href="http://www.orthopediclinic.com">
+    <meta property="og:title" content="고려건정형외과 ㅣ천호역 최대규모 정형외과">
+    <meta property="og:description" content="천호역 정형외과 전문의, 비수술 치료, 주사치료">
+    <meta property="og:url" content="http://www.orthopediclinic.com">
+    <meta name="keywords" content="천호역 정형외과 전문의, 비수술 치료, 주사치료">
+    <meta property="og:image" content="./img/thum.png">
+    <!-- 네이버 -->
+    <meta name="naver-site-verification" content="31772ccf1a6a8801e348ce7d9ebba252d9f2f94e" />
+    <link href="./img/head_icon.ico" rel="shortcut icon" type="image/x-icon">
+    <title>영인 체외충격파</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/tab.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/scrollEvent.js"></script>
+    <script src="./js/typing.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div id="header-placeholder"></div>
+        <main>
+            <!-- 서브배너 -->
+            <div class="sub_banner sub_5">
+                <div class="sub_banner_inner">
+                    <div class="introduction_name">
+                        <b>KOREA GEUN ORTHOPEDICS</b>
+                        <h2>보유장비</h2>
+                        <p>풍부한 경험과 노하우로 환자분의 치료부터 관리까지 책임집니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- tab -->
+            <div class="tab_list">
+                <div class="tab_list_inner">
+                    <ul class="introduction_ul">
+                        <li class="on"><a href="./shock.html">영인 체외충격파</a></li>
+                        <li><a href="./carmxray.html">C-arm,X-ray</a></li>
+                        <li><a href="./cryo.html">Cryo</a></li>
+                        <li><a href="./v7.html">V7 초음파</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="introduction_list">
+                <div class="content cartilage s1">
+                    <div class="content_bg">
+                        <div class="content_inner">
+                            <div class="philosophy_tit"  data-aos='fade-up'>영인 체외충격파</div>
+                            <p class="philosophy_msg" data-aos='fade-up'>
+                                대표적인 비수술적 치료법으로 꼽히며 통증질환이 발생한 다양한 부위에 세밀하게 사용이 가능합니다.<br>
+                                근골격계 질환에서 체외에서 충격파 에너지를 체내로 전달해 통증 또는 손상부위가 자연 치유될 수 있도록 촉진하는 것으로 일반적인 물리치료에 비해 높은 효과를 자랑합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content on">
+                    <div class="item">
+                        <div class="content_inner">
+                            <div class="img_wrap">
+                                <img src="./img/shock_01.png" alt="영인 체외충격파">
+                            </div>
+                            <div class="txt_wrap">
+                                <div class="item_tit">장점</div>
+                                <ul class="item_msg">
+                                    <li>
+                                        부작용이 거의 없고 반복 치료에도 안정성이 높습니다.
+                                    </li>
+                                    <li>
+                                        시술 시간이 짧고 흉터없이 치료가 가능합니다.
+                                    </li>
+                                    <li>
+                                        치료 직후 효과를 확인 할 수 있습니다.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <div id="footer-placeholder"></div>
+    </div>
+    <script>
+        // aos 초기화
+        AOS.init({ 
+            duration: 1000
+        });
+    
+        // 헤더와 푸터를 가져와서 각각의 placeholder에 삽입합니다.
+        fetch('header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('header-placeholder').innerHTML = html;
+    
+                // 헤더를 불러온 후에 실행되어야 하는 JavaScript 코드 추가
+                // 예시: 메뉴 토글 등의 기능 초기화
+                // 모바일 메뉴 열기
+                $(".open_menu").click(function(){
+                    // alert("!!")
+                    $(".hidden_bg").addClass("on");
+                })
+                // 모바일 메뉴 닫기
+                $(".close_menu").click(function(){
+                    $(".hidden_bg").removeClass("on");
+                })
+
+                // 모바일 메뉴 토글
+                $(".hidden_gnb>li").click(function() {
+                    // 클릭된 메뉴의 하위 메뉴 토글
+                    $(this).find('.top_0').slideToggle();
+
+                    // 다른 메뉴의 하위 메뉴 닫기
+                    $(".hidden_gnb>li").not(this).find('.top_0').slideUp();
+                    // 
+                    $(".hidden_gnb>li>a").removeClass("on")
+                    $(this).children('a').addClass("on");
+
+                });
+            });
+    
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('footer-placeholder').innerHTML = html;
+    
+                // 푸터를 불러온 후에 실행되어야 하는 JavaScript 코드 추가
+                // 예시: 스크롤 이벤트 등의 기능 초기화
+                window.addEventListener('scroll', function() {
+                    console.log('스크롤 이벤트 발생');
+                });
+            });
+    </script>
+</body>
+</html>

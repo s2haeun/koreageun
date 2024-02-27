@@ -1,0 +1,137 @@
+@media (min-width:0px) and (max-width:900px){
+    /* header */
+    .header_inner .header_menu .gnb{
+        display: none;
+    }
+    .header_inner .header_menu .open_menu{
+        display: flex;
+    }
+    .header_inner{
+        padding: 5px;
+    }
+
+    /* common */
+    .bg_wrap.bluebg::before {
+        display: none;
+    }
+    /* con2 */
+    .con2 .content_inner .nonsurgical {
+        flex-direction: column;
+    }
+    /* main 주요시술 */
+    .con6 .content_inner .nonsurgical {
+        flex-direction: column;
+    }
+    /* main 보유장비 */
+    .con3 .equipment img {
+        transform: translate(-50%,-10%) scale(1);
+    }
+    .con3 .content_wrap:hover img {
+        transform: translate(-50%,-10%) scale(1.1);
+    }
+    /* sub_banner */
+    .sub_banner{height: 400px!important}
+    @keyframes animatedBackground {
+        0%{background-size: 220%;}
+        100%{background-size: 200%;}
+    }
+
+
+    /* location */
+    .location .content_wrap {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    .location .location_txt{
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
+
+    /* philosophy */
+    /* 진료철학 */
+    .philosophy_tit{
+        font-size: 3rem;
+    }
+    .philosophy_msg{
+        font-size: 2.0rem;
+    }
+    ul.philosophy_msg li{
+        margin-bottom: 2rem;
+    }
+    /* 영양수액치료 */
+    .intravenous_wrap {
+        padding: 4rem 1rem;
+        border-bottom: 1px solid #ababab3b;
+    }
+    .intravenous_tit::before {
+        width: 4px;
+        height: 3rem;
+    }
+    .intravenous_tit {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .intravenous_msg {
+        font-size: 2rem;
+    }
+    /* 대표원장 소개 */
+    .doctor::before {
+        border-radius: 0 50px 0 0!important;
+    }
+    .doctor .doctor_wrap{
+        flex-direction: column;
+    }
+    .doctor_wrap .img_wrap {
+        margin-right: 0rem!important;
+    }
+    .doctor_wrap .txt_wrap{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .doctor_name{
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    .doctor_history>ul {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+    /* .doctor_wrap .txt_wrap p:first-of-type {
+        margin: 40px auto 40px!important;
+    } */
+    .doctor_wrap .doctor_history {
+        margin-top: 2rem;
+    }
+    .doctor_wrap .txt_wrap p:last-of-type {
+        margin-bottom: 7rem;
+        
+    }
+    /* 진단검사 */
+    .sub_banner.sub_2::after {
+        content: none;
+    }
+    /* 신경성형술 */
+    .introduction_list .con_wrap.pen{
+        flex-direction: column;
+    }
+    /* news */
+    .news{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    /* 보유장비 */
+    .smartct_ul{
+        flex-direction: column;
+    }
+
+    /* footer */
+    .footer_inner{
+        flex-direction: column;
+        padding: 5rem 0;
+    }
+    .f_logo{
+        margin-top: 10rem;
+    }
+
+
+}

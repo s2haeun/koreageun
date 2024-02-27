@@ -1,0 +1,203 @@
+@media (min-width:0px) and (max-width:500px){
+
+
+    .h_logo{width: 150px;}
+    .mobile{display: block;}
+    * h3>span {
+        font-size: 1rem;
+    }
+    * h3>i {
+        font-size: 3.5rem;
+    }
+
+    /* common */
+    .content_inner{
+        padding: 70px 0;
+    }
+    .content h4 {
+        margin-bottom: 5rem;
+    }
+    .con_wrap .txt_wrap h6 {
+        margin: 5rem 2rem 2rem;
+    }
+    .txt_wrap p:last-of-type {
+        margin-top: 2rem;
+    }
+    .bg_wrap.bluebg::before {
+        display: none;
+    }
+    /* main */
+    .main_banner .main_cover h1 {
+        margin-bottom: 3rem ;
+        margin-top: 6rem;
+    }
+    .main_banner .main_cover .introani{
+        font-size: 4rem;
+    }
+    .main_banner .main_cover .introani.one{
+        font-size: 1.6rem;
+    }
+    /* con1 */
+    .con1 .content_inner .knowhow_txt {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .con1 .content_inner .open_txt {
+        font-size: 8rem;
+    }
+    .con1 i {
+        font-size: 2.2rem;
+    }
+    /* con2 */
+    .con2 .content_inner .content_wrap h5>span {
+        font-size: 1.4rem;
+    }
+    .con2 .content_inner .content_wrap h5>i {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+    /* con6 */
+    .con6 .content_inner .content_wrap h5>span {
+        font-size: 1.4rem;
+    }
+    .con6 .content_inner .content_wrap h5>i {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+    /* location */
+    .location .location_txt .tel{
+        font-size: 1.8rem;
+    }
+    .location .location_txt ul>li {
+        flex-direction: column;
+        margin-bottom: 2rem;
+        line-height: 1.5rem;
+    }
+    /* philosophy */
+    /* 진료철학 */
+    .philosophy .philosophy_tit{
+        font-size: 2.5rem;
+    }
+    .philosophy .philosophy_msg{
+        font-size: 1.7rem;
+    }
+    /* 대표원장소개 */
+    .doctor::before {
+        height: 80%;
+    }
+    .content .doctor_h4 {
+        padding-top: 80px;
+        margin-bottom: 5rem;
+    }
+    .doctor_wrap .txt_wrap p:first-of-type {
+        font-size: 2.3rem;
+        margin: 50px 0 5px;
+    }
+    /* 병원소개 */
+    .tab_list .tab_list_inner ul a {
+        line-height: 50px;
+    }
+    main .tab_list {
+        font-size: 1.7rem;
+    }
+    .sub_banner {
+        height: 300px!important;
+    }
+    .sub_banner .introduction_name{
+        align-items: center;
+    }
+    .sub_banner .introduction_name b{
+        font-size: 1.2rem;
+        width: 180px;
+    }
+    .sub_banner .introduction_name h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .sub_banner .introduction_name p{
+        text-align: center;
+    }
+    main .content h4 {
+        font-size: 3rem;
+    }
+    /* 신경성형술 */
+    .pen_inner strong{
+        display: block;
+        font-size: 1.5rem;
+        color: #888888;
+        font-weight: 300;
+    }
+    /* news */
+    .news{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    /* 입원실 */
+    .exploration2 h6{
+        font-size: 2.5rem;
+        padding-left: 0.5rem;
+
+    }
+    .exploration2 dl dt{
+        line-height: 3.8rem;
+        font-size: 2rem;
+        padding-left: 1.5rem;
+
+    }
+    .exploration2 dl dd{
+        line-height: 2.7rem;
+        font-size: 2rem;
+        padding: 1.5rem 1rem 3.5rem;
+    }
+    /* 개인정보처리방침ㅁ */
+    .site_tit {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .site_msg {
+        font-size: 1.6rem;
+    }
+    .site_msg h6{
+        font-size: 2rem;
+    }
+    /* 이메일무단수집거부 */
+    .email .email_tit {
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+    }
+    .email_msg {
+        font-size: 1.5rem;
+    }
+    /* 비급여 */
+    .time_wrap table {
+        font-size: 1.2rem;
+    }
+    .time_wrap table tr td {
+        padding: 8px 2px;
+    }
+    
+    /* footer */
+    .f_top{
+        
+        font-size: 1.4rem;
+    }
+    .f_bot{
+        font-size: 1.2rem;
+    }
+    .footer_left P{
+        font-size: 1.2rem;
+    }
+    .f_logo{
+        margin-top: 5rem;
+    }
+
+
+
+
+
+
+
+
+}
